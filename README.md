@@ -1,8 +1,8 @@
 # randomnf.github.io
 ## Исходники верстки
-### coinduck.ru
-Демонстрация верстки: [coinduck](https://randomnf.github.io/front-end/coinduck/)
+### coinduck.ru - информационный сайт в мире криптовалют
+Демонстрация верстки: <https://randomnf.github.io/front-end/coinduck/>
 
-Исходники: [github.com/randomnf/coinduck/](https://github.com/randomnf/coinduck/)
+Исходники: <https://github.com/randomnf/coinduck/>
 
-Сайт: [coinduck.ru](https://coinduck.ru)
+Сайт: <https://coinduck.ru>
