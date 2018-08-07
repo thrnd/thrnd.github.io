@@ -17,10 +17,7 @@
 ***
 &copy; Киянов Даниил
 
-Контакты:
-
-randoms.site (в разработке)
-
-<https://vk.com/thrnd>
-
+Контакты:  
+randoms.site (в разработке)  
+<https://vk.com/thrnd>  
 <therandom@ya.ru>
