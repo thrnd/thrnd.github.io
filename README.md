@@ -13,3 +13,10 @@
 Исходники: <https://github.com/randomnf/coinduck/>
 
 Сайт: <https://coinduck.ru>
+
+***
+&copy; Киянов Даниил
+Контакты:
+randoms.site (в разработке)
+[https://vk.com/thrnd](vk.com/thrnd)
+<therandom@ya.ru>
