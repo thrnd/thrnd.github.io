@@ -21,6 +21,6 @@
 
 randoms.site (в разработке)
 
-[https://vk.com/thrnd](vk.com/thrnd)
+<https://vk.com/thrnd>
 
 <therandom@ya.ru>
