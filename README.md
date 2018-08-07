@@ -19,6 +19,6 @@
 
 Контакты:  
 randoms.site (в разработке)  
-[github.com/randomnf/](https://github.com/randomnf/>)  
+[github.com/randomnf/](https://github.com/randomnf/)  
 [vk.com/thrnd](https://vk.com/thrnd)  
 <therandom@ya.ru>
