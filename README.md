@@ -22,9 +22,9 @@
 Сайт: <https://mimimi.market>
 
 ### pre-lestnica.ru - сайт производителя лестниц [январь 2018]
-Демонстрация верстки: (ссылка появится в ближайшее время)
+Демонстрация верстки: <https://randomnf.github.io/front-end/prelestnica/>
 
-Исходники: (ссылка появится в ближайшее время)
+Исходники: <https://github.com/randomnf/prelestnica/>
 
 Сайт: <https://pre-lestnica.ru>
 
