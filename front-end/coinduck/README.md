@@ -1,13 +1,13 @@
 # Демонстрация верстки coinduck - список сверстанных страниц
-- (Главная)[/front-end/coinduck/home.html]
+- [Главная](/front-end/coinduck/home.html)
 - Страницы со списком новостей/статей (минимальные отличия в дизайне):
-    - (Страница со всеми новостями)[/front-end/coinduck/feed.html]
-    - (Страница с новостями в отдельной рубрике)[/front-end/coinduck/feed_category.html]
-    - (Страница со всеми видео)[/front-end/coinduck/video.html]
-- Детальные страницы новостей/статей (минимальные отличия в дизайне):
-    - (Детальная страница новости/статьи)[/front-end/coinduck/article_page.html]
-    - (Детальная страница с видео)[/front-end/coinduck/video_page.html]
-    - (Детальная страница с описанием события)[/front-end/coinduck/event_page.html]
-- (Страница со списком событий (с попап-формой))[/front-end/coinduck/calendar.html]
-- (Страница "о нас")[/front-end/coinduck/about.html]
-- (Страница с контактами)[/front-end/coinduck/contacts.html]
+    - [Страница со всеми новостями](/front-end/coinduck/feed.html)
+    - [Страница с новостями в отдельной рубрике](/front-end/coinduck/feed_category.html)
+    - [Страница со всеми видео](/front-end/coinduck/video.html)
+- Детальные страницы новостей/статей [минимальные отличия в дизайне):
+    - [Детальная страница новости/статьи](/front-end/coinduck/article_page.html)
+    - [Детальная страница с видео](/front-end/coinduck/video_page.html)
+    - [Детальная страница с описанием события](/front-end/coinduck/event_page.html)
+- [Страница со списком событий [с попап-формой)](/front-end/coinduck/calendar.html)
+- [Страница "о нас"](/front-end/coinduck/about.html)
+- [Страница с контактами](/front-end/coinduck/contacts.html)
