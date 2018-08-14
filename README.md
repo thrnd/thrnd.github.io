@@ -10,9 +10,9 @@
 ### okna-passage.ru - окна, лендинг (3 страницы) [май 2018]
 **[адаптив, лэндинг]**
 
-Демонстрация верстки: (ссылка появится в ближайшее время)
+Демонстрация верстки: <https://randomnf.github.io/front-end/passage_landing/>
 
-Исходники: (ссылка появится в ближайшее время)
+Исходники: <https://github.com/randomnf/passage_landing>
 
 Сайт: <http://okna-passage.ru/>
 
