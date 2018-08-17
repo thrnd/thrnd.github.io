@@ -21,9 +21,9 @@
 ### mimimi.market - интернет-магазин корейской косметики [февраль 2018]
 **[адаптив]**
 
-Демонстрация верстки: (ссылка появится в ближайшее время)
+Демонстрация верстки: <https://randomnf.github.io/front-end/mimimi_market/>
 
-Исходники: (ссылка появится в ближайшее время)
+Исходники: <https://github.com/randomnf/mimimi.market>
 
 Сайт: <https://mimimi.market>
 
