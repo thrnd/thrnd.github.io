@@ -4,6 +4,7 @@
 
 **Плюсы**:
 - БЭМ-именование
+- реализовал весь функционал [калькулятора](https://randomnf.github.io/front-end/passage_landing/plastic.html#calculator) на JavaScript
 
 **Минусы**:
 - jquery и зависимый от него flexslider - в данном пункте ориентировался на совет работодателя
