@@ -1,0 +1,23 @@
+lang: ru
+
+exclude:
+  - node_modules
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+collections:
+  projects:
+    output: true
+    permalink: /:title/_info.html
+
+sass:
+  style: compressed

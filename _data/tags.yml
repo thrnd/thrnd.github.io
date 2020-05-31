@@ -1,0 +1,10 @@
+- code: html-css
+  name: верстка
+- code: ie
+  name: IE11+
+- code: adaptive
+  name: адаптив
+- code: bem
+  name: BEM
+- code: js
+  name: JS
