@@ -1,0 +1,142 @@
+.page {
+    min-height: 100%;
+    padding-top: 100px;
+    margin: 0;
+}
+
+.app {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.row {
+    width: 100%;
+}
+
+td {
+    cursor: pointer;
+}
+
+th:last-child,
+td:last-child {
+    text-align: right;
+}
+
+.modal {
+    max-height: initial;
+}
+.modal.open {
+    z-index: 1003;
+    display: block;
+    opacity: 1;
+    top: 30%;
+    transform: scaleX(1) scaleY(1);
+}
+.modal__inner {
+    margin-bottom: 0;
+}
+
+.trade-form,
+.trade-form__inner {
+    padding-left: 0 !important;
+}
+
+.trade-table {
+    width: 100%;
+    max-width: 70%;
+    margin-bottom: 15px;
+}
+.trade-table tr {
+    border-bottom: 0;
+}
+.trade-table__col {
+    width: 33.33%;
+}
+
+.widget__form-feedback {
+    clear: both;
+}
+.widget__form-feedback::before {
+    content: "|";
+    color: transparent;
+}
+.widget__form-feedback.error {
+    color: red;
+}
+.widget__trade-all-btn::after {
+    content: "\2191";
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.portfolio-wrap {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+}
+
+.portfolio {
+    margin: 0;
+}
+.portfolio__header {
+    display: flex;
+    background: none;
+}
+.portfolio__col {
+    flex-basis: 50%;
+    flex-shrink: 0;
+}
+.portfolio__balance,
+.portfolio__worth {
+    position: relative;
+    padding-left: 5px;
+}
+
+.blink {
+    animation-name: blink;
+    animation-duration: 3s;
+}
+@keyframes blink {
+    from { background-color: rgba(242,242,242,0.75); }
+}
+
+.value-raised,
+.value-fallen {
+    position: relative;
+    animation-duration: 3s;
+}
+.value-raised {
+    animation-name: value-raised;
+}
+.value-fallen {
+    animation-name: value-fallen;
+}
+.value-raised::before,
+.value-fallen::before {
+    position: absolute;
+    top: 50%;
+    margin-left: -10px;
+    transform: translateY(-50%);
+    animation-name: arrow-hide;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+.value-raised::before {
+    content: "\2191";
+}
+.value-fallen::before {
+    content: "\2193";
+}
+@keyframes value-raised {
+    from { color: green }
+}
+@keyframes value-fallen {
+    from { color: rgba(255, 0 , 0 ,.5) }
+}
+@keyframes arrow-hide {
+    100% { color: transparent; }
+}

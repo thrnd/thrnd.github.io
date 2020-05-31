@@ -1,0 +1,71 @@
+---
+layout: default
+---
+<h1 class="title page__title page__title--mb--half">{{ page.name }}, сделан в 20{{ page.year }}г.</h1>
+
+<ul class="tags list-reset page__tags">
+    {% for tag in page.tags %}
+    <li class="tags__item tags__item--t--{{ tag }}">
+        {% for item in site.data.tags %}
+            {% if item.code == tag %}
+                {{ item.name }}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+    </li>
+    {% endfor %}
+</ul>
+
+<div class="note">
+    <h2 class="title note__title">Описаньице проекта</h2>
+
+    {{ content }}
+
+    <div class="project-links note__links">
+        {% if page.siteLink %}
+        <a class="link link-away project-links__link" href="{{ page.siteLink }}" target="_blank">
+            Сайт
+            <svg class="link-away__icon project-links__icon">
+                <use xlink:href="/assets/images/icons.svg#new-window"></use>
+            </svg>
+        </a>
+        {% endif %}
+
+        <a class="link link-away project-links__link" href="https://github.com/randomnf/{{ page.repo }}" target="_blank">
+            Исходный код
+            <svg class="link-away__icon project-links__icon">
+                <use xlink:href="/assets/images/icons.svg#new-window"></use>
+            </svg>
+        </a>
+    </div>
+</div>
+
+{% assign isJSProject = page.isJS %}
+
+{% if isJSProject %}
+<h2 class="title title--t--main page__title">Список демо-страниц</h2>
+{% else %}
+<h2 class="title title--t--main page__title">Список сверстанных страниц</h2>
+{% endif %}
+
+<div class="pages">
+    {% for prj in page.pages %}
+    <div class="pages__item">
+        <article class="work link-away">
+            <header class="work__header">
+                <h3 class="title work__title">
+                    <a class="link work__title-link" href="{{ prj.link }}" target="_blank">{{ prj.name }}</a>
+                </h3>
+            </header>
+            <a class="link work__content {% if prj.isJS %}work__content--bg--js{% endif %}" href="{{ prj.link }}" target="_blank" {% if prj.isJS %}aria-label="{{ prj.name }}"{% endif %}>
+                {% if prj.isJS != true %}
+                <img class="work__img" src="/assets/images/{{ page.link }}/{{ prj.img }}" alt="Превью страницы &quot;{{ prj.name }}&quot;">
+                {% endif %}
+            </a>
+            <svg class="link-away__icon work__away-icon">
+                <use xlink:href="/assets/images/icons.svg#new-window"></use>
+            </svg>
+        </article>
+    </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,8 @@
+<header class="header container">
+    {% assign title = "Frontend-портфолио Даниила Киянова" %}
+    {% if page.url != "/" %}
+    <a class="link title" href="/">{{ title }}</a>
+    {% else %}
+    <h1 class="title title--t--main header__title">{{ title }}</h1>
+    {% endif %}
+</header>
