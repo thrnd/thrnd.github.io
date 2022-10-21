@@ -22,7 +22,7 @@
     </ul>
     <div class="work__content work__content--page--main {% if project.isJS %}work__content--bg--js{% endif %}">
         {% if project.isJS != true %}
-        <img class="work__img" src="/assets/images/{{ project.link }}/{{ project.pages[0].img }}" alt="Превью главной страницы проекта &laquo;{{ project.name }}&raquo;">
+        <img class="work__img" loading="lazy" src="/assets/images/{{ project.link }}/{{ project.pages[0].img }}" alt="Превью главной страницы проекта &laquo;{{ project.name }}&raquo;" width="500" height="282">
         {% endif %}
         <ul class="work-links list-reset work__links">
             <li class="work-links__item">

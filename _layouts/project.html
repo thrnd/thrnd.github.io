@@ -59,7 +59,7 @@ layout: default
             </header>
             <a class="link work__content {% if prj.isJS %}work__content--bg--js{% endif %}" href="{{ prj.link }}" target="_blank" {% if prj.isJS %}aria-label="{{ prj.name }}"{% endif %}>
                 {% if prj.isJS != true %}
-                <img class="work__img" src="/assets/images/{{ page.link }}/{{ prj.img }}" alt="Превью страницы &quot;{{ prj.name }}&quot;">
+                <img class="work__img" loading="lazy" src="/assets/images/{{ page.link }}/{{ prj.img }}" alt="Превью страницы &quot;{{ prj.name }}&quot;" width="350" height="197">
                 {% endif %}
             </a>
             <svg class="link-away__icon work__away-icon">
