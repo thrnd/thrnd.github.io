@@ -1,6 +1,6 @@
 ---
 ---
-$gap: 30px;
+$gap: 2rem;
 
 $ff-mono: "Courier new", "Lucida Sans Typewriter", "Consolas", monospace;
 
@@ -9,6 +9,12 @@ $c-black:       #000000;
 $c-yellow:      #ffd000;
 $c-d-yellow:    darken($c-yellow, 7%);
 $c-gray:        #e2e2e2;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
 code {
     padding: .2em;
@@ -166,7 +172,7 @@ ul,
 
     padding: 1.5rem;
     margin: 0;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
     border: 2px solid $c-yellow;
     border-left-width: 7px;
 
@@ -225,14 +231,10 @@ ul,
     display: flex;
     flex-wrap: wrap;
 
-    margin-left: -$gap / 2;
-    margin-right: -$gap / 2;
-
     &__item {
         display: flex;
 
-        box-sizing: border-box;
-        flex-basis: 50%;
+        flex-basis: 33.33%;
         padding-left: $gap / 2;
         padding-right: $gap / 2;
         margin-bottom: $gap * 1.5;
@@ -489,7 +491,6 @@ ul,
     &__item {
         display: flex;
 
-        box-sizing: border-box;
         flex-basis: 33.33%;
         flex-shrink: 0;
         padding-left: $gap / 4;
